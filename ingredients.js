@@ -8,5 +8,4 @@ for (i; i<ingredients.length; i++){
   console.log(ingredients[i]);
 }
 
-
-  console.log(ingredients.reverse());
+console.log(ingredients.reverse());

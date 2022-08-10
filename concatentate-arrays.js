@@ -1,6 +1,6 @@
 function concat(loc1,loc2){
-  total = loc1.concat(loc2)
-  return total
+  total = loc1.concat(loc2);
+  return total;
 }
 console.log(concat([ 1, 2, 3 ], [ 4, 5, 6 ]), "=?", [ 1, 2, 3, 4, 5, 6 ]);
 console.log(concat([ 0, 3, 1 ], [ 9, 7, 2 ]), "=?", [ 0, 3, 1, 9, 7, 2 ]);
