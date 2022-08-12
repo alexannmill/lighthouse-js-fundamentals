@@ -1,6 +1,6 @@
 const sumLargestNumbers = function(data) {
-  var firstNum=0;
-  var secLargest=0;
+  let firstNum=0;
+  let secLargest=0;
   for (let i=0; i<data.length; i++){
     if (data[i] > firstNum){
       secLargest = firstNum;
